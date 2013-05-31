@@ -209,7 +209,7 @@ for(i=0;i<window.movieArr.length;i++){
         imdb = item[7];
     listString += '<li><a href="movie.html?file='+file+'">'+
         '<div class="title">'+title+'</div>'+
-        '<div class="rating">'+rating+'</div>'+
+        '<div class="rating">&nbsp;'+rating+'</div>'+
         '<div class="length">'+len+'</div>'+
     '</a><a href="javascript:;"></a></li>';
 }
